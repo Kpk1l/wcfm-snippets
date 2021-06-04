@@ -1,0 +1,11 @@
+//use a comma as decimal seperator for product price
+add_filter( 'wcfm_product_manage_fields_pricing', function( $pricing_fields, $product_id, $product_type ) {
+	if( isset( $pricing_fields['regular_price'] ) ) {
+		$pricing_fields['regular_price']['type'] = 'text';
+	}
+	if( isset( $pricing_fields['sale_price'] ) ) {
+		$pricing_fields['sale_price']['type'] = 'text';
+	}
+	
+	return $pricing_fields;
+}, 50, 3 );

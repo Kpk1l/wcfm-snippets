@@ -1,0 +1,2 @@
+//Disable commission when vendor buy his own
+add_filter( 'wcfm_is_allow_vendor_own_product_commission', '__return_false' );

@@ -1,0 +1,14 @@
+@media only screen and (max-width: 768px){
+#wcfm_menu .wcfm_menu_facebook-marketplace .wcfm_menu_item span.text {
+word-break: break-word;
+overflow: hidden;
+text-overflow: ellipsis;
+line-height: 16px;
+max-height: 32px;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+width: 120px;
+vertical-align: middle;}
+#wcfm_menu {
+width: 50%!important;}
+}

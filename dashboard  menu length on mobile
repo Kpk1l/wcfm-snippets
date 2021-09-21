@@ -1,4 +1,5 @@
 @media only screen and (max-width: 768px){
+/*add the class to your menu to make it on 2 lines */
 #wcfm_menu .wcfm_menu_facebook-marketplace .wcfm_menu_item span.text {
 word-break: break-word;
 overflow: hidden;
